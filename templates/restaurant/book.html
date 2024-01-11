@@ -1,0 +1,37 @@
+{% extends 'restaurant/base.html' %} {% load static %} {% block content %}
+
+<section class="container-fluid" id="book-bg">
+    <div class="main-wrap">
+        <div class="cover_ 1 cover_sm">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-md-7">
+                        <h2 class="reservation-heading">Book Your Table Here!</h2>
+                        <div id="book-table">
+                            <form method="POST" action="" enctype="multipart/form-data" id="book-form">
+                                {% csrf_token %}
+                                <table>
+                                    {{ form }} {% if messages %} {% for message in messages %} {%
+                                    if message.tags %}
+                                    <script>
+                                        alert("{{ message }}");
+                                    </script>
+                                    {% endfor %} {% endif %}
+                                </table>
+                                <table>
+                                    <input type="submit" class="reserve-button" value="Book table!" />
+                                </table>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<iframe id="map"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2132.0480948744544!2d11.949421!3d57.6986527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ff341846d2a73%3A0xc391c6acc70a0ec8!2sTredje%20L%C3%A5nggatan%2015%2C%20413%2028%20G%C3%B6teborg!5e0!3m2!1ssv!2sse!4v1700746076045!5m2!1ssv!2sse"
+    width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade" aria-label="Google-map"></iframe>
+
+{% endblock %}

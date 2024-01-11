@@ -1,0 +1,35 @@
+{% extends 'restaurant/base.html' %} 
+{% load static %} 
+{% block content %}
+
+<section id="home" class="container-fluid">
+    <div id="burgertext">
+        <h2>Craveworthy and made from scratch.</h2>
+        <h3>Visit us in Gothenburg.</h3>
+    </div>
+</section>
+
+<section id="about" class="container-fluid">
+    <h3>About us.</h3>
+    <div id="about-us">
+        <p>
+            We strive to please every customer and our commitment is to always use the
+            highest quality, fresh ingredients, and source them from diverse cultures
+            around the world.
+        </p>
+        <p>
+            We grill our all-natural, lifetime antibiotic, steroid, and hormone-free
+            meats to perfection. And no-one beats our homebaked delicious bread..
+        </p>
+        <p>
+            You can find gluten-free, and vegan options. As we said, we strive to
+            please every customer
+        </p>
+    </div>
+    <div id="menu-link">
+        <a class="menulink" href="menu.html">Want to check out our Menu? <br />
+            Click me!</a>
+    </div>
+</section>
+
+{% endblock %}

@@ -1,0 +1,101 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Craveworthy Hamburgers in Gothenburg" />
+    <meta name="keywords" content="Craveworthy Hamburgers in Gothenburg" />
+    <!--Title-->
+    <title>Burgermania</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous" />
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css"
+        integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous" />
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="static/css/style.css" />
+    <!--Font awesome-->
+    <script src="https://kit.fontawesome.com/032f9bfe1a.js" crossorigin="anonymous"></script>
+    <!--Jquery-->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Header starts-->
+    <header id="header">
+        <div class="col-xs-6 .col-md-4">
+            <a href="index.html">
+                <h1 id="logo" aria-label="Logo leading home">Burger-Mania</h1>
+            </a>
+        </div>
+        <div id="burgericon" class=".col-xs-6 .col-md-4">
+            <div class="fas fa-hamburger"></div>
+        </div>
+        <div class=".col-xs-6 .col-md-4">
+            <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+            <label for="nav-toggle" id="fa-bars" class="nav-toggle-label fa-solid fa-bars"
+                style="color: #eeecea; font-size: 30px" aria-label="Menu for Home, Menu and Book a table"></label>
+            <nav>
+                <ul id="menu">
+                    <li>
+                        <a href="index.html" aria-label="Home"> Home</a>
+                    </li>
+                    <li>
+                        <a href="menu.html" aria-label="Menu"> Menu</a>
+                    </li>
+                    <li>
+                        <a href="book.html" aria-label="Book a table"> Book A Table</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--Header ends-->
+
+    <main class="flex-shrink-0 main-bg">
+        {% block content %} {% endblock content %}
+    </main>
+
+    <!--Footer-->
+    <footer id="footer">
+        <ul id="social-networks">
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in new tab)"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in new tab)"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+        </ul>
+        <div id="address">
+            <p id="adress-text">
+                Tredje Långgatan 15 <br />
+                413 28 Göteborg
+            </p>
+        </div>
+    </footer>
+    <!--Jquery-->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="static/js/script.js">
+        $('a.menulink').button();
+    </script>
+</body>
+
+</html>
