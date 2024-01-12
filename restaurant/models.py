@@ -12,7 +12,7 @@ class Reservation(models.Model):
     number_of_people = models.IntegerField(validators=[MinValueValidator(0),
                                                        MaxValueValidator(5)])
     date = models.DateField(null=True, blank=False)
-    time = models.TimeField(null=True, blank=False)
+    time = models.TimeField(unique=True, null=True, blank=False)
 
     def __str__(self):
         return self.name
