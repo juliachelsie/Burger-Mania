@@ -25,4 +25,8 @@ def get_book(request):
         if form.is_valid():
             form.save()
             messages.success(request, 'Booking succesful!')
+        else:
+            messages.add_message(request, messages.WARNING,
+                                 'Table an time already taken out')
+            return render(request, 'restaurant/book.html')
     return render(request, 'restaurant/book.html', {'form': Reserve_table_form})

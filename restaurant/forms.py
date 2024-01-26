@@ -32,4 +32,3 @@ class Reserve_table_form(ModelForm):
         model = Reservation
         fields = ['name', 'email', 'phone_number',
                   'number_of_people', 'date', 'time', 'table']
-        unique_together = ('date', 'time', 'table',)

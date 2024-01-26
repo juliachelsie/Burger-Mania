@@ -3,6 +3,8 @@ from django.contrib.auth.models import User
 from cloudinary.models import CloudinaryField
 from django.core.validators import MinValueValidator, MaxValueValidator
 from datetime import datetime
+from django.forms import ValidationError
+from django.http import HttpResponseRedirect
 
 # Create your models here.
 
@@ -27,8 +29,14 @@ class Reservation(models.Model):
     number_of_people = models.IntegerField(validators=[MinValueValidator(0),
                                                        MaxValueValidator(5)])
     table = models.TextField(choices=tableChoices, max_length=255)
-    date = models.DateTimeField(default=datetime.now)
+    date = models.DateField(default=datetime.now)
     time = models.TextField(choices=sittingTimes, max_length=255)
 
     def __str__(self):
         return self.name
+    
+    class Meta:
+        constraints = [
+            models.UniqueConstraint(fields=['table', 'date', 'time'], name='unique_table_date_time')
+        ]
+
