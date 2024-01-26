@@ -34,9 +34,9 @@ class Reservation(models.Model):
 
     def __str__(self):
         return self.name
-    
+
     class Meta:
         constraints = [
-            models.UniqueConstraint(fields=['table', 'date', 'time'], name='unique_table_date_time')
+            models.UniqueConstraint(
+                fields=['table', 'date', 'time'], name='unique_table_date_time')
         ]
-

@@ -27,6 +27,6 @@ def get_book(request):
             messages.success(request, 'Booking succesful!')
         else:
             messages.add_message(request, messages.WARNING,
-                                 'Table an time already taken out')
-            return render(request, 'restaurant/book.html')
+                                 'Sorry, that time and table is already taken. Try another!')
+            return render(request, 'restaurant/book.html', {'form': Reserve_table_form})
     return render(request, 'restaurant/book.html', {'form': Reserve_table_form})
