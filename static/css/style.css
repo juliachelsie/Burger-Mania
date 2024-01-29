@@ -207,7 +207,7 @@ body {
 }
 
 .bg-food {
-    background: url("/static/smokeyburger.png") no-repeat center center/cover;
+    background: url("https: //res.cloudinary.com/dvd1tzvim/image/upload/v1706288003/static/smokeyburger.b7a912d3959b.png") no-repeat center center/cover;
 }
 
 #food {
