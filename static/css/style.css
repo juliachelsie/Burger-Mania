@@ -150,10 +150,8 @@ body {
 
 #home {
     height: 750px;
-    /*width: 100%;*/
     background: url("https: //res.cloudinary.com/dvd1tzvim/image/upload/v1706288005/static/burger.9060ad660fc2.jpg") no-repeat center center/cover;
     position: relative;
-    /* background-attachment: fixed;*/
     box-shadow: 0 1px 2px #eeecea;
 }
 
@@ -208,8 +206,8 @@ body {
     color: #eeecea;
 }
 
-#bg-food {
-    background: url("https: //res.cloudinary.com/dvd1tzvim/image/upload/v1706288003/static/smokeyburger.b7a912d3959b.png") no-repeat center center/cover;
+.bg-food {
+    background: url("/static/smokeyburger.png") no-repeat center center/cover;
 }
 
 #food {
