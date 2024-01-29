@@ -1,39 +1,60 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Burger-Mania
 
-Welcome,
+Burger-Mania is a website for a restaurant in Gothenburg, Sweden. It will help customers to hopefully choose Burger-Mania for their next restaurant-visit. It targets hungry customers who want to eat something tasty and delicious, in the inner city of Gothenburg. urger-Mania is useful to customers because they can easily find the menu, they can read about the restaurant and how they only use local and organic products, book a table and find were the restaurant is located on a google map.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Existing features
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+- **Navigation Bar**
+- The website has a navigation bar which is full responsive and includes four links to the Logo, Home page, Menu and Book a table page. It is identical on all three pages for easy navigation.
+- The user can easily navigate between the pages without having to revert back to previous pages via the "back"-button.
+![Nav Bar]()
 
-## Codeanywhere Reminders
+- **Landing page image**
+- The landing includes an image with a burger, overlayed with the text "Craveworthy and made from scratch.", it also contains the text "Visit us in Gothenburg".
+- This quickly grabs the users attention and they will scroll down and look for more information.
+![Landing Page]()
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+- **About us**
+- In the "about us" section the user can read about the restaurant, they will learn that Burger-Mania only use ingredients of high quality, antibiotic free meat and that the restaurant bakes their bread themself.
+- There is also a clickable link to the menu.
+![About us]()
 
-`python3 -m http.server`
+- **Footer**
+- The footer section includes links to social media sites for Burger-Mania. To keep easy navigation for the user the links open in new tabs. There is also a address and phone number to the restaurant.
+![Footer]()
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- **Menu**
+- The menu page tells the user what the restaurant offer in food and beverages.
+- As a background there is a image of a tasty burger.
+- It also includes a clickable link to the page where the user can book a table.
+![Menu]()
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- **Book A Table**
+- The "Book A Table" page allows the user to book a table at the restaurant.
+- The user will be asked to submit their full name, email address, phone number and specifies how many guests are coming and which date and time they want to book.
+![Book A Table]()
 
-`http_server`
+- **Booking Successful**
+-When the user successfully books a table a message with the text "Booking successfull appears.
+![Message]()
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+-**Booking not available**
+-When the booking is not available a message appears and tells the user to check for another time.
+![Message]()
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- **Admin page**
+- The website has an admin-page where the admin can see the all the information of the bookings being made.
+![Admin-page]()
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Features left to implement
 
-To log into the Heroku toolbelt CLI:
+- I would like to add a funktion to make it possible for the user to create an acount and log in.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Design
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+- **Typography**
+- Google Fonts was used for the following fonts:
+- Road Rage is used for headings on the site, it is a sans-serif font.
+- **Colour**
+- I used this color scheme on the website. I think the palette goes well with the theme and gives a cool impression to the user.
+  ![Color scheme]()
