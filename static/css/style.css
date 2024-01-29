@@ -56,7 +56,6 @@ h3 {
 }
 
 #about {
-    /*width: 100%;*/
     background-color: #332f2e;
     padding-bottom: 35px;
     padding-top: 35px;
@@ -288,7 +287,6 @@ body {
     font-size: 40px;
     text-align: center;
     margin-top: 170px;
-    /* margin-left: 170px; */
     width: 100%;
 }
 
@@ -359,7 +357,6 @@ label {
 .reserve-button {
     font-size: 25px;
     transition: all 0.3s linear;
-    /*margin-left: 70px;*/
 }
 
 .reserve-button:hover {
