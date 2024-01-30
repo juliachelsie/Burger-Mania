@@ -1,6 +1,6 @@
 # Burger-Mania
 
-Burger-Mania is a website for a restaurant in Gothenburg, Sweden. It will help customers to hopefully choose Burger-Mania for their next restaurant-visit. It targets hungry customers who want to eat something tasty and delicious, in the inner city of Gothenburg. urger-Mania is useful to customers because they can easily find the menu, they can read about the restaurant and how they only use local and organic products, book a table and find were the restaurant is located on a google map.
+Burger-Mania is a website for a restaurant in Gothenburg, Sweden. It will help customers to hopefully choose Burger-Mania for their next restaurant-visit. It targets hungry customers who want to eat something tasty and delicious, in the inner city of Gothenburg. Burger-Mania is useful to customers because they can easily find the menu, they can read about the restaurant and how they only use local and organic products, book a table and find were the restaurant is located on a google map.
 
 ## Existing features
 
@@ -95,23 +95,29 @@ Burger-Mania is a website for a restaurant in Gothenburg, Sweden. It will help c
 I have tested the website Via lighthouse.
 
 **Desktop**
+- This is all the sides tested on desktop.
 ![index.html](https://github.com/juliachelsie/burger-mania/blob/main/media/lighthouse-index-laptop.PNG)
 ![menu.html](https://github.com/juliachelsie/burger-mania/blob/main/media/lighthouse-menu-laptop.PNG)
 ![book.html](https://github.com/juliachelsie/burger-mania/blob/main/media/lighthouse-form-laptop.PNG)
+
+
 **Mobile**
+- This is all the sides tested on mobile.
 ![index.html](https://github.com/juliachelsie/burger-mania/blob/main/media/lighthouse-index-mobile.PNG)
 ![menu.html](https://github.com/juliachelsie/burger-mania/blob/main/media/lighthouse-menu-mobile.PNG)
 ![book.html](https://github.com/juliachelsie/burger-mania/blob/main/media/lighthouse-form-mobile.PNG)
 
 ### How does it look on different screen sizes?
 
-I have tested how the website look on different screen sixes, here how it look:
+I have tested how the website look on different screen sizes, here how it look:
 
-**Desktop**
+- Desktop
 ![Desktop](https://github.com/juliachelsie/burger-mania/blob/main/media/howitlookdesktop.PNG)
-**Tablet**
+
+- Tablet
 ![Tablet](https://github.com/juliachelsie/burger-mania/blob/main/media/howitlooksipad.PNG)
-**Mobile**
+
+- Mobile
 ![Mobile](https://github.com/juliachelsie/burger-mania/blob/main/media/howitlooksmobile.PNG)
 
 ## Deployment
@@ -125,7 +131,7 @@ I have tested how the website look on different screen sixes, here how it look:
   I linked the Heroku app to the repository.
   I clicked on deploy.
 
-The live link can be found here -
+The live link can be found here - <https://burgermania-julia-0c6fa3399ea8.herokuapp.com/>
 
 ## Credits
 
