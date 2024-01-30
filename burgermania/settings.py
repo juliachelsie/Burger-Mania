@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = False
 
 ALLOWED_HOSTS = ['burgermania-julia.herokuapp.com', 'localhost',
-                 '8000-juliachelsie-burger-mani-xvqq8chm6r.us2.codeanyapp.com', 'burgermania-julia-0c6fa3399ea8.herokuapp.com']
+                 '8000-juliachelsie-burger-mani-xvqq8chm6r.us2.codeanyapp.com', 'burgermania-julia-0c6fa3399ea8.herokuapp.com', 'burgermania-julia.herokuapp.com/admin']
 
 
 # Application definition
