@@ -9,7 +9,7 @@ tableChoices = [
     ('4', 'small table in isle')
 ]
 
-sittingTimes = [('3-5', '3pm-5pm'), ('5-7', '5pm-7pm'), ('7-9', '7pm-9pm'),]
+sittingTimes = [('3-5', '3pm-5pm'), ('5-7', '5pm-7pm'), ('7-9', '7pm-9pm'), ]
 
 
 class Reserve_table_form(ModelForm):

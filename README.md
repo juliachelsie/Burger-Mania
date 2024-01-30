@@ -84,3 +84,12 @@ Burger-Mania is a website for a restaurant in Gothenburg, Sweden. It will help c
 ![index.html](https://github.com/juliachelsie/burger-mania/blob/main/media/lighthouse-index-mobile.PNG)
 ![menu.html](https://github.com/juliachelsie/burger-mania/blob/main/media/lighthouse-menu-mobile.PNG)
 ![book.html](https://github.com/juliachelsie/burger-mania/blob/main/media/lighthouse-form-mobile.PNG)
+
+### How does it look on different screen sizes?
+I have tested how the website look on different screen sixes, here how it look:
+- __Desktop__
+![Desktop]()
+- __Tablet__
+![Tablet]()
+- __Mobile__
+![Mobile]()
