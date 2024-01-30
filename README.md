@@ -4,14 +4,14 @@ Burger-Mania is a website for a restaurant in Gothenburg, Sweden. It will help c
 
 ## Existing features
 
-- **Navigation Bar**
-The website has a navigation bar which is full responsive and includes three links to the Logo, Home page, Menu and Book a table page. It is identical on all three pages for easy navigation. On the mobie version it collapses to a menu icon.
+**Navigation Bar**
+- The website has a navigation bar which is full responsive and includes three links to the Logo, Home page, Menu and Book a table page. It is identical on all three pages for easy navigation. On the mobie version it collapses to a menu icon.
 The user can easily navigate between the pages without having to revert back to previous pages via the "back"-button.
   ![Nav Bar Desktop](https://github.com/juliachelsie/burger-mania/blob/main/media/navbar_burger.PNG)
   ![Nav Bar Mobile](https://github.com/juliachelsie/burger-mania/blob/main/media/navbar_mobile.PNG)
 
-- **Landing page image**
-The landing includes an image with a burger, overlayed with the text "Craveworthy and made from scratch.", it also contains the text "Visit us in Gothenburg".
+**Landing page image**
+- The landing includes an image with a burger, overlayed with the text "Craveworthy and made from scratch.", it also contains the text "Visit us in Gothenburg".
 This quickly grabs the users attention and they will scroll down and look for more information.
   ![Landing Page](https://github.com/juliachelsie/burger-mania/blob/main/media/landingpage_hamburger.PNG)
 
